@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Ultimate Regex Tool",
+  "version": "1.0",
+  "description": "A powerful regex tester and replacer.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage", "scripting"],
+  "host_permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}

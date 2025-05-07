@@ -54,7 +54,7 @@ const Main = () => {
         ))}
       </TabsList>
 
-      <div className="px-4">
+      <div className="pt-4 px-4">
         <TabsContent value={tabs[0]}>
           <RegexTestTab />
         </TabsContent>

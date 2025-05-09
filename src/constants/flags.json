@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "global", "flag": "g" },
+  { "id": 2, "name": "case insensitive", "flag": "i" },
+  { "id": 3, "name": "multi line", "flag": "m" },
+  { "id": 4, "name": "single line", "flag": "s" },
+  { "id": 5, "name": "unicode", "flag": "u" },
+  { "id": 6, "name": "sticky", "flag": "y" }
+]

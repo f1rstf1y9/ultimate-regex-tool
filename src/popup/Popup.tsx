@@ -1,9 +1,14 @@
 import { useState } from "react";
-import PatternManageTab from "@/components/tabs/PatternManageTab";
-import RegexReplaceTab from "@/components/tabs/RegexReplaceTab";
-import RegexTestTab from "@/components/tabs/RegexTestContent";
-import { Input } from "@/components/ui/input";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import PatternManageTab from "@/components/tabs/PatternManage";
+import RegexReplaceTab from "@/components/tabs/RegexReplace";
+import RegexTestTab from "@/components/tabs/RegexTest";
+import { Input } from "@/components/ui/atom/input";
+import {
+  Tabs,
+  TabsList,
+  TabsTrigger,
+  TabsContent,
+} from "@/components/ui/atom/tabs";
 import { ChevronUp, ChevronDown } from "lucide-react";
 
 const SearchBar = ({

@@ -16,6 +16,12 @@ export function highlightMatches(
     let result = "";
     let count = 0;
 
+    if (!flags.includes("g") && (match = reg.exec(text)) !== null) {
+      result = `<mark class="bg-blue-200">${escapeHtml(match[0])}</mark>`;
+      count = 1;
+      return { html: result, count };
+    }
+
     while ((match = reg.exec(text)) !== null) {
       const start = match.index;
       const end = start + match[0].length;
